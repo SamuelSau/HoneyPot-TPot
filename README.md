@@ -55,7 +55,7 @@ The top 3 countries attacking the honeypot were China, DR Congo, and the United 
 
 ![Screenshot 2024-11-17 194514](https://github.com/user-attachments/assets/37cf4283-b159-42b1-8048-e8151573f81e)
 
-On the username and password tagclouds shown above, there seems to be a common pattern. Most of the fields seem to try to find default credentials, such as password = 123456, to hopefully gain access to the system. It might be that the adversary and bots are running automated scripts that check for any default or common credentials against the system for access.
+On the username and password tagclouds shown above, there seems to be a common pattern. Most of the fields seem to try to find default credentials, such as password = 123456, to hopefully gain access to the system. It might be that the adversary and bots are running automated scripts that check for any default or common credentials against the system for access. The technique used must be "password spraying", where they try for common credentials to see if it's easily accessible or not.
 
 ### Top attackers
 
